@@ -21,23 +21,20 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  Paper,
 } from "@mui/material";
 import "./style.css";
-
-// import TopRotation from "../../Component/TopRotation";
 
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import CircleIcon from "@mui/icons-material/Circle";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-
 import IconRotation from "../../Assets/images/icons/rotation.svg";
 
 //Components
 
 export default function Services() {
+  
   const [anchorEl, setAnchorEl] = React.useState(null);
   const handlePopoverOpen = (event) => {
     setAnchorEl(event.currentTarget);
@@ -120,7 +117,7 @@ export default function Services() {
           </figure>
           <article>
             <Typography variant="h2" gutterBottom>
-              Kaohsoiung Singapore Service <Badge badgeContent={12}></Badge>
+              Kaohsoiung Singapore Service<Badge badgeContent={12}></Badge>
             </Typography>
             <Typography variant="body1">CA6600 (4/12)</Typography>
           </article>
